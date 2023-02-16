@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="105dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/unnamed_removebg_preview__2_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#379834"
+        android:text="SMK SYAFI'I AKROM PEKALONGAN"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#000207"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/EtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Siswa"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/Ettugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Tugas"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/EtHadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Kehadiran"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/EtPts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai PTS"
+        android:textSize="8pt"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/EtUas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nilai UAS"
+        android:inputType="textPersonName"
+        android:textSize="8pt" />
+
+
+</LinearLayout>
